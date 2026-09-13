@@ -1,2 +1,3 @@
-# rebrickable-conector
-A Power Platofrm Custom Connector for Rebrickable
+# Rebrickable Custom Connector
+
+A Power Platform Custom Connector for Rebrickable
