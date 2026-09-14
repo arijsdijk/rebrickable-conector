@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Rebrickable",
-    "description": "Rebrickable API v3 voor Microsoft Power Platform. LEGO-catalogus en gebruikerscollecties. Gebruik bij de verbinding: key gevolgd door een spatie en je API-sleutel.",
+    "description": "Rebrickable API v3 for Microsoft Power Platform. LEGO catalog and user collections. When connecting, enter: key followed by a space and your API key.",
     "version": "1.0.0"
   },
   "host": "rebrickable.com",
@@ -21,7 +21,7 @@
       "type": "apiKey",
       "in": "header",
       "name": "Authorization",
-      "description": "Vul in: key JOUW_API_SLEUTEL (inclusief het voorvoegsel key en een spatie)."
+      "description": "Enter: key YOUR_API_KEY (including the prefix key and a space)."
     }
   },
   "security": [
@@ -35,7 +35,7 @@
         "operationId": "lego_colors_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_colors_listResponse",
               "x-scope": [
@@ -44,7 +44,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -96,7 +96,7 @@
         "operationId": "lego_colors_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_colors_readResponse",
               "x-scope": [
@@ -105,7 +105,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -145,7 +145,7 @@
         "operationId": "lego_elements_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_elements_readResponse",
               "x-scope": [
@@ -154,7 +154,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -187,7 +187,7 @@
         "operationId": "lego_minifigs_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_minifigs_listResponse",
               "x-scope": [
@@ -196,7 +196,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -283,7 +283,7 @@
         "operationId": "lego_minifigs_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_minifigs_readResponse",
               "x-scope": [
@@ -292,7 +292,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -325,7 +325,7 @@
         "operationId": "lego_minifigs_parts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_minifigs_parts_listResponse",
               "x-scope": [
@@ -334,7 +334,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -386,7 +386,7 @@
         "operationId": "lego_minifigs_sets_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_minifigs_sets_listResponse",
               "x-scope": [
@@ -395,7 +395,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -454,7 +454,7 @@
         "operationId": "lego_part_categories_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_part_categories_listResponse",
               "x-scope": [
@@ -463,7 +463,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -515,7 +515,7 @@
         "operationId": "lego_part_categories_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_part_categories_readResponse",
               "x-scope": [
@@ -524,7 +524,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -564,7 +564,7 @@
         "operationId": "lego_parts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_parts_listResponse",
               "x-scope": [
@@ -573,7 +573,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -683,7 +683,7 @@
               0,
               1
             ],
-            "description": "1 voegt uitgebreide onderdeelgegevens toe."
+            "description": "Set to 1 to include extended part details."
           }
         ],
         "description": "Get a list of Parts.\n\nOptional parameter inc_part_details=1 can be used to return additional fields, the same as for a single part lookup.\n\nThe optional part_nums filter parameter should be a comma separated list of part_num without spaces.\n\nOptionally filter by one or more of the below query parameters.",
@@ -699,7 +699,7 @@
         "operationId": "lego_parts_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_parts_readResponse",
               "x-scope": [
@@ -708,7 +708,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -736,7 +736,7 @@
               0,
               1
             ],
-            "description": "1 voegt uitgebreide onderdeelgegevens toe."
+            "description": "Set to 1 to include extended part details."
           }
         ],
         "description": "Get details about a specific Part.",
@@ -752,7 +752,7 @@
         "operationId": "lego_parts_colors_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_parts_colors_listResponse",
               "x-scope": [
@@ -761,7 +761,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -820,7 +820,7 @@
         "operationId": "lego_parts_colors_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_parts_colors_readResponse",
               "x-scope": [
@@ -829,7 +829,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -869,7 +869,7 @@
         "operationId": "lego_parts_colors_sets_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_parts_colors_sets_listResponse",
               "x-scope": [
@@ -878,7 +878,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -944,7 +944,7 @@
         "operationId": "lego_sets_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_sets_listResponse",
               "x-scope": [
@@ -953,7 +953,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1047,7 +1047,7 @@
         "operationId": "lego_sets_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_sets_readResponse",
               "x-scope": [
@@ -1056,7 +1056,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1089,7 +1089,7 @@
         "operationId": "lego_sets_alternates_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_sets_alternates_listResponse",
               "x-scope": [
@@ -1098,7 +1098,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1157,7 +1157,7 @@
         "operationId": "lego_sets_minifigs_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_sets_minifigs_listResponse",
               "x-scope": [
@@ -1166,7 +1166,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1218,7 +1218,7 @@
         "operationId": "lego_sets_parts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_sets_parts_listResponse",
               "x-scope": [
@@ -1227,7 +1227,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1274,7 +1274,7 @@
               0,
               1
             ],
-            "description": "1 voegt uitgebreide onderdeelgegevens toe."
+            "description": "Set to 1 to include extended part details."
           },
           {
             "name": "inc_minifig_parts",
@@ -1285,7 +1285,7 @@
               0,
               1
             ],
-            "description": "1 neemt de onderdelen van minifiguren mee."
+            "description": "Set to 1 to include minifigure parts."
           }
         ],
         "description": "Get a list of all Inventory Parts in this Set.\n\nOptional parameter inc_part_details=1 can be used to return additional part fields, the same as for a single part lookup.\nOptional parameter inc_minifig_parts=1 can be used to include minifig parts in this call.\nOptional parameter inc_color_details=0 can be used to prevent color field expansion and reduce response sizes.",
@@ -1301,7 +1301,7 @@
         "operationId": "lego_sets_sets_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_sets_sets_listResponse",
               "x-scope": [
@@ -1310,7 +1310,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1362,7 +1362,7 @@
         "operationId": "lego_themes_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_themes_listResponse",
               "x-scope": [
@@ -1371,7 +1371,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1423,7 +1423,7 @@
         "operationId": "lego_themes_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "$ref": "#/definitions/lego_themes_readResponse",
               "x-scope": [
@@ -1432,7 +1432,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1472,31 +1472,31 @@
         "operationId": "users__token_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
               "properties": {
                 "user_token": {
                   "type": "string",
-                  "description": "User Token voor collectieacties."
+                  "description": "User Token for collection actions."
                 }
               }
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
               "properties": {
                 "user_token": {
                   "type": "string",
-                  "description": "User Token voor collectieacties."
+                  "description": "User Token for collection actions."
                 }
               }
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1540,10 +1540,10 @@
         "operationId": "users_badges_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -1566,7 +1566,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1618,14 +1618,14 @@
         "operationId": "users_badges_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1665,10 +1665,10 @@
         "operationId": "users_allparts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -1691,7 +1691,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1707,7 +1707,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -1759,7 +1759,7 @@
               0,
               1
             ],
-            "description": "1 voegt uitgebreide onderdeelgegevens toe."
+            "description": "Set to 1 to include extended part details."
           }
         ],
         "description": "Get a list of all the Parts in all the user's Part Lists as well as the Parts inside Sets in the user's Set Lists.\n\n###WARNING this call is very resource intensive, do not overuse it!\n\nOptionally, filter by one or more of the below query parameters.",
@@ -1775,14 +1775,14 @@
         "operationId": "users_build_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1805,7 +1805,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           }
         ],
@@ -1822,10 +1822,10 @@
         "operationId": "users_lost_parts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -1848,7 +1848,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1864,7 +1864,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -1905,21 +1905,21 @@
         "operationId": "users_lost_parts_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1935,7 +1935,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -1969,10 +1969,10 @@
         "operationId": "users_lost_parts_delete",
         "responses": {
           "204": {
-            "description": "Verwijderd"
+            "description": "Deleted"
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -1995,7 +1995,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2020,10 +2020,10 @@
         "operationId": "users_minifigs_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -2046,7 +2046,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2062,7 +2062,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2119,10 +2119,10 @@
         "operationId": "users_partlists_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -2145,7 +2145,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2161,7 +2161,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2195,21 +2195,21 @@
         "operationId": "users_partlists_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2225,7 +2225,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2266,14 +2266,14 @@
         "operationId": "users_partlists_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2296,7 +2296,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           }
         ],
@@ -2311,14 +2311,14 @@
         "operationId": "users_partlists_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2341,7 +2341,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2380,14 +2380,14 @@
         "operationId": "users_partlists_partial_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2410,7 +2410,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2449,10 +2449,10 @@
         "operationId": "users_partlists_delete",
         "responses": {
           "204": {
-            "description": "Verwijderd"
+            "description": "Deleted"
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2475,7 +2475,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           }
         ],
@@ -2493,10 +2493,10 @@
         "operationId": "users_partlists_parts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -2519,7 +2519,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2542,7 +2542,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2580,7 +2580,7 @@
               0,
               1
             ],
-            "description": "1 voegt uitgebreide onderdeelgegevens toe."
+            "description": "Set to 1 to include extended part details."
           }
         ],
         "description": "Get a list of all the Parts in a specific Part List.\n\nOptional parameter inc_part_details=1 can be used to return additional part fields, the same as for a single part lookup.\nOptional parameter inc_color_details=0 can be used to prevent color field expansion and reduce response sizes.",
@@ -2594,21 +2594,21 @@
         "operationId": "users_partlists_parts_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2631,7 +2631,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2672,14 +2672,14 @@
         "operationId": "users_partlists_parts_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2716,7 +2716,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2738,14 +2738,14 @@
         "operationId": "users_partlists_parts_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2782,7 +2782,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2814,10 +2814,10 @@
         "operationId": "users_partlists_parts_delete",
         "responses": {
           "204": {
-            "description": "Verwijderd"
+            "description": "Deleted"
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2854,7 +2854,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2879,10 +2879,10 @@
         "operationId": "users_parts_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -2905,7 +2905,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -2921,7 +2921,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -2987,7 +2987,7 @@
               0,
               1
             ],
-            "description": "1 voegt uitgebreide onderdeelgegevens toe."
+            "description": "Set to 1 to include extended part details."
           }
         ],
         "description": "Get a list of all the Parts in all the user's Part Lists.\n\nOptional parameter inc_part_details=1 can be used to return additional part fields, the same as for a single part lookup.\n\n###Set List logic\nParts appearing in multiple Part Lists will be listed multiple times.\n\nOptionally, filter by one or more of the below query parameters.",
@@ -3003,14 +3003,14 @@
         "operationId": "users_profile_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3026,7 +3026,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           }
         ],
@@ -3043,10 +3043,10 @@
         "operationId": "users_setlists_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -3069,7 +3069,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3085,7 +3085,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3119,21 +3119,21 @@
         "operationId": "users_setlists_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3149,7 +3149,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3190,14 +3190,14 @@
         "operationId": "users_setlists_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3220,7 +3220,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           }
         ],
@@ -3235,14 +3235,14 @@
         "operationId": "users_setlists_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3265,7 +3265,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3304,14 +3304,14 @@
         "operationId": "users_setlists_partial_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3334,7 +3334,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3373,10 +3373,10 @@
         "operationId": "users_setlists_delete",
         "responses": {
           "204": {
-            "description": "Verwijderd"
+            "description": "Deleted"
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3399,7 +3399,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           }
         ],
@@ -3417,10 +3417,10 @@
         "operationId": "users_setlists_sets_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -3443,7 +3443,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3466,7 +3466,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3507,21 +3507,21 @@
         "operationId": "users_setlists_sets_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3544,7 +3544,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3585,14 +3585,14 @@
         "operationId": "users_setlists_sets_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3622,7 +3622,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3644,14 +3644,14 @@
         "operationId": "users_setlists_sets_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3681,7 +3681,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3720,14 +3720,14 @@
         "operationId": "users_setlists_sets_partial_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3757,7 +3757,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3796,10 +3796,10 @@
         "operationId": "users_setlists_sets_delete",
         "responses": {
           "204": {
-            "description": "Verwijderd"
+            "description": "Deleted"
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3829,7 +3829,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3854,10 +3854,10 @@
         "operationId": "users_sets_list",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON.",
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON.",
               "properties": {
                 "count": {
                   "type": "integer"
@@ -3880,7 +3880,7 @@
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -3896,7 +3896,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -3986,21 +3986,21 @@
         "operationId": "users_sets_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -4016,7 +4016,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -4057,21 +4057,21 @@
         "operationId": "users_sets_sync_create",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "201": {
-            "description": "Aangemaakt",
+            "description": "Created",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -4087,7 +4087,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -4129,14 +4129,14 @@
         "operationId": "users_sets_read",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -4159,7 +4159,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -4223,14 +4223,14 @@
         "operationId": "users_sets_update",
         "responses": {
           "200": {
-            "description": "Geslaagd",
+            "description": "Success",
             "schema": {
               "type": "object",
-              "description": "De officiële export bevat geen antwoordschema voor deze actie. Verwerk niet-beschreven velden via de ruwe JSON-body / Parse JSON."
+              "description": "The official export does not include a response schema for this action. Process undocumented fields using the raw JSON body / Parse JSON."
             }
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -4253,7 +4253,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
@@ -4327,10 +4327,10 @@
         "operationId": "users_sets_delete",
         "responses": {
           "204": {
-            "description": "Verwijderd"
+            "description": "Deleted"
           },
           "default": {
-            "description": "API-fout, bijvoorbeeld 400, 401, 403, 404 of 429.",
+            "description": "API error, for example 400, 401, 403, 404, or 429.",
             "schema": {
               "type": "object",
               "properties": {
@@ -4353,7 +4353,7 @@
             "name": "user_token",
             "required": true,
             "in": "path",
-            "description": "Rebrickable User Token, verkregen via users__token_create. Dit is niet de API-sleutel.",
+            "description": "Rebrickable User Token obtained via users__token_create. This is not the API key.",
             "type": "string"
           },
           {
