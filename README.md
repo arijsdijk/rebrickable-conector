@@ -22,7 +22,7 @@ For example, build a Power App to browse sets, or a Power Automate flow that ret
 | File | Contents |
 | --- | --- |
 | [Rebrickable.swagger.json](Rebrickable.swagger.json) | Importable Swagger 2.0 definition with actions, parameters, responses, and API key authentication. |
-| [INSTALL.md](INSTALL.md) | Step-by-step import instructions with screenshots. |
+
 
 ## Getting started
 
